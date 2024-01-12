@@ -135,8 +135,8 @@ from .arcpublishing import ArcPublishingIE
 from .arkena import ArkenaIE
 from .ard import (
     ARDBetaMediathekIE,
+    ARDMediathekCollectionIE,
     ARDIE,
-    ARDMediathekIE,
 )
 from .arte import (
     ArteTVIE,
@@ -297,7 +297,6 @@ from .cammodels import CamModelsIE
 from .camsoda import CamsodaIE
 from .camtasia import CamtasiaEmbedIE
 from .canal1 import Canal1IE
-from .capitalcy import CapitalTVCyIE
 from .canalalpha import CanalAlphaIE
 from .canalplus import CanalplusIE
 from .canalc2 import Canalc2IE
@@ -542,6 +541,7 @@ from .egghead import (
 from .eighttracks import EightTracksIE
 from .einthusan import EinthusanIE
 from .eitb import EitbIE
+from .elementorgeneral import ElementorGeneralIE
 from .elonet import ElonetIE
 from .elpais import ElPaisIE
 from .eltrecetv import ElTreceTVIE
@@ -550,6 +550,7 @@ from .epicon import (
     EpiconIE,
     EpiconSeriesIE,
 )
+from .epidemicsound import EpidemicSoundIE
 from .eplus import EplusIbIE
 from .epoch import EpochIE
 from .eporner import EpornerIE
@@ -1649,6 +1650,7 @@ from .rumble import (
     RumbleIE,
     RumbleChannelIE,
 )
+from .rudovideo import RudoVideoIE
 from .rutube import (
     RutubeIE,
     RutubeChannelIE,
@@ -2019,7 +2021,6 @@ from .tunein import (
     TuneInPodcastEpisodeIE,
     TuneInShortenerIE,
 )
-from .turbo import TurboIE
 from .tv2 import (
     TV2IE,
     TV2ArticleIE,
@@ -2223,6 +2224,7 @@ from .viki import (
     VikiIE,
     VikiChannelIE,
 )
+from .viously import ViouslyIE
 from .viqeo import ViqeoIE
 from .viu import (
     ViuIE,
